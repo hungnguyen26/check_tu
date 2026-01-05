@@ -7,7 +7,7 @@ from google import genai  # Gemini AI SDK
 # ==========================
 # CẤU HÌNH GEMINI
 # ==========================
-API_KEY = "AIzaSyDNDkHiRPPun0jbsXwb4fG59RP0sTvbhT0"  # Thay bằng API key Gemini thật
+API_KEY = "AIzaSyCZkf9Osthh_9vQtRcXuLeqH55Fg9hqn_0"  # Thay bằng API key Gemini thật
 client = genai.Client(api_key=API_KEY)
 GEMINI_MODEL = "gemini-2.5-flash"  # Hoặc gemini-2.0 tùy quyền truy cập
 
